@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url('../../fonts/GloriaHallelujah.eot');
+    src: url('../../fonts/GloriaHallelujah.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/GloriaHallelujah.woff2') format('woff2'),
+        url('../../fonts/GloriaHallelujah.woff') format('woff'),
+        url('../../fonts/GloriaHallelujah.ttf') format('truetype'),
+        url('../../fonts/GloriaHallelujah.svg#GloriaHallelujah') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel Heavy';
+    src: url('../../fonts/Martel-Heavy.eot');
+    src: url('../../fonts/Martel-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Martel-Heavy.woff2') format('woff2'),
+        url('../../fonts/Martel-Heavy.woff') format('woff'),
+        url('../../fonts/Martel-Heavy.ttf') format('truetype'),
+        url('../../fonts/Martel-Heavy.svg#Martel-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('../../fonts/Martel-UltraLight.eot');
+    src: url('../../fonts/Martel-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Martel-UltraLight.woff2') format('woff2'),
+        url('../../fonts/Martel-UltraLight.woff') format('woff'),
+        url('../../fonts/Martel-UltraLight.ttf') format('truetype'),
+        url('../../fonts/Martel-UltraLight.svg#Martel-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

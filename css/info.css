@@ -1,0 +1,122 @@
+.info__wrapper   {
+}
+.info {
+   padding: 15rem 0;
+   text-align: center;
+}
+.info__list {
+   margin-bottom: 5rem;
+}
+.info__item .text {
+   margin-bottom: 0;
+   width: fit-content;
+   position: relative;
+}
+.info__item .text::before {
+   display: block;
+   content: '';
+   position: absolute;
+   width: 5rem;
+   height: 2rem;
+   background-color: var(--fourth-brand-color);
+   top: 50%;
+   left: -1rem;
+   transform: translate(0, -50%) rotate(-25deg);
+   z-index: -1;
+}
+.info__item:not(:last-child) {
+   margin-bottom: 3rem;
+}
+.sub-title--after {
+   position: relative;
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+}
+.sub-title--after::after {
+   position: absolute;
+   display: block;
+   content: '';
+   background-color: var(--second-brand-color);
+   width: 130%;
+   height: 3rem;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%,0);
+   z-index: -1;
+}
+.info .img {
+   border: 5rem solid var(--first-brand-color);
+   max-width: 70rem;
+}
+
+
+
+.use__wrapper {
+   background-color: var(--second-brand-color);
+}
+.use {
+   padding: 12rem 0;
+   text-align: center;
+}
+.use .img {
+   margin-bottom: 0;
+   max-width: 60rem;
+}
+.use .text {
+   margin-bottom: 0;
+   position: absolute;
+   background-color: rgba(0, 0, 0, .7);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 90%;
+   height: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--sub-text-color);
+   padding: 2rem 5rem;
+}
+.use__block {
+   position: relative;
+}
+
+
+
+.contacts-section {
+   padding: 15rem 0;
+   text-align: center;
+}
+.contacts-section__item .text {
+   margin-bottom: 0;
+}
+.contacts-section__item:not(:last-child) {
+   margin-bottom: 3rem;
+}
+
+
+
+.title-section__wrapper {
+   background-color: var(--first-brand-color);
+}
+.title-section {
+   padding: 10rem 0;
+   text-align: center;
+}
+
+
+
+@media screen and (min-width: 1440px)  {
+  .use {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  .use .sub-title {
+     margin-bottom: 0;
+     border-bottom: .3rem solid var(--main-text-color);
+  }
+}
+
+
